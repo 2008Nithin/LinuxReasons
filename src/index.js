@@ -3,7 +3,12 @@ import ReactDOM from "react-dom";
 import App from "./App";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode
+    style={{
+      innerHeight: "100%",
+      innerWidth: "100%",
+    }}
+  >
     <App />
   </React.StrictMode>,
   document.getElementById("root")
